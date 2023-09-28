@@ -1,0 +1,1032 @@
+@font-face {
+  font-family: "Impact";
+  src: url("../fonts/aIhLxDDtgj0R.ttf") format("truetype");
+  src: url("../fonts/DswitFglJOz7.ttf") format("truetype");
+  src: url("../fonts/qfZyRh8E33Wr.ttf") format("truetype");
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  body .desktop {
+    display: none;
+  }
+  body .mobile .navbar img {
+    margin-top: 25px;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .mobile .section1 {
+    background-image: url(../images/akUIAa9zqFQg.png);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  body .mobile .section1 .firstphoto {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  body .mobile .section1 .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+  }
+  body .mobile .section1 .socials .twitter {
+    width: 146px;
+  }
+  body .mobile .section1 .socials .telegram {
+    width: 157px;
+  }
+  body .mobile .section1 .secondphoto {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  body .mobile .section1 .derpPEPPO {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  body .mobile .section1 .mobileline {
+    width: 100%;
+    margin-top: -5px;
+  }
+  body .mobile .platforms .line {
+    width: 100%;
+    margin: 15px 0px;
+  }
+  body .mobile .platforms .cmc {
+    width: 325px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+  body .mobile .platforms .bsc {
+    width: 208px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .mobile .platforms .cg {
+    width: 239px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .mobile .platforms .pcs {
+    width: 293px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .mobile .platforms .gate {
+    width: 174px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .mobile .platforms .dex {
+    width: 207px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+  body .mobile .mobileline {
+    width: 100%;
+  }
+  body .mobile .about {
+    text-align: center;
+  }
+  body .mobile .about img {
+    width: 294px;
+    margin-top: 25px;
+  }
+  body .mobile .about p {
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+    margin-top: 25px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 25px;
+  }
+  body .mobile .mobilelike img {
+    width: 100%;
+    margin-bottom: -15px;
+  }
+  body .mobile .howto {
+    display: flex;
+    flex-direction: column;
+  }
+  body .mobile .howto .howto {
+    width: 100%;
+    margin-top: 25px;
+  }
+  body .mobile .howto .roads {
+    display: flex;
+    flex-direction: column;
+  }
+  body .mobile .howto .roads img {
+    margin-top: 25px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .mobile .howto .buynow {
+    width: 80%;
+    margin: 0 auto;
+  }
+  body .mobile .howto .buynow img {
+    width: 121px;
+    margin-top: 25px;
+  }
+  body .mobile .howto .shit {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -7px;
+    margin-top: -20px;
+  }
+  body .mobile .tokenomics .toke {
+    width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  body .mobile .tokenomics .title {
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 45px;
+    /* identical to box height, or 225% */
+    color: #000000;
+    margin-top: 25px;
+  }
+  body .mobile .tokenomics .text {
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+    color: #000000;
+  }
+  body .mobile .tokenomics .chart {
+    width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  body .mobile .tokenomics .derptext {
+    width: 104px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  body .mobile .roadmaps .roads {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  body .mobile .roadmaps .txt {
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+    margin-top: 25px;
+    color: #000000;
+  }
+  body .mobile .roadmaps .roadmapss {
+    display: flex;
+    flex-direction: column;
+  }
+  body .mobile .roadmaps .roadmapss img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  body .mobile footer {
+    background-color: #00A230;
+  }
+  body .mobile footer .logos {
+    width: 312px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 55px;
+  }
+  body .mobile footer .txt {
+    width: 300px;
+    margin: 0 auto;
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 25px;
+  }
+  body .mobile footer .seperate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  body .mobile footer .seperate .left {
+    display: flex;
+    flex-direction: column;
+  }
+  body .mobile footer .seperate .left img {
+    width: 128px;
+    margin-top: 25px;
+  }
+  body .mobile footer .seperate .left a {
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    /* identical to box height, or 114% */
+    color: #FFFFFF;
+    margin-top: 15px;
+  }
+  body .mobile footer .seperate .right {
+    display: flex;
+    flex-direction: column;
+  }
+  body .mobile footer .seperate .right img {
+    width: 107px;
+    margin-top: 25px;
+  }
+  body .mobile footer .seperate .right a {
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    /* identical to box height, or 114% */
+    color: #FFFFFF;
+    margin-top: 15px;
+  }
+  body .mobile footer .shiba {
+    width: 271px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+  }
+  body .mobile footer .likemobilewhite {
+    width: 100%;
+    height: 5px;
+  }
+  body .mobile footer .reserved {
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    margin: 0px;
+    padding: 15px 0px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FCFCFC;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1199px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  body .desktop {
+    display: none;
+  }
+  body .mobile .navbar img {
+    margin-top: 25px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .mobile .section1 {
+    background-image: url(../images/akUIAa9zqFQg.png);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  body .mobile .section1 .firstphoto {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  body .mobile .section1 .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+  }
+  body .mobile .section1 .socials .twitter {
+    width: 146px;
+  }
+  body .mobile .section1 .socials .telegram {
+    width: 157px;
+  }
+  body .mobile .section1 .secondphoto {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  body .mobile .section1 .derpPEPPO {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  body .mobile .section1 .mobileline {
+    width: 100%;
+    margin-top: -5px;
+  }
+  body .mobile .platforms .line {
+    width: 100%;
+    margin: 15px 0px;
+  }
+  body .mobile .platforms .cmc {
+    width: 325px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+  body .mobile .platforms .bsc {
+    width: 208px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .mobile .platforms .cg {
+    width: 239px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .mobile .platforms .pcs {
+    width: 293px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .mobile .platforms .gate {
+    width: 174px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .mobile .platforms .dex {
+    width: 207px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+  body .mobile .mobileline {
+    width: 100%;
+  }
+  body .mobile .about {
+    text-align: center;
+  }
+  body .mobile .about img {
+    width: 294px;
+    margin-top: 25px;
+  }
+  body .mobile .about p {
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+    margin-top: 25px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 25px;
+  }
+  body .mobile .mobilelike img {
+    width: 100%;
+    margin-bottom: -15px;
+  }
+  body .mobile .howto {
+    display: flex;
+    flex-direction: column;
+  }
+  body .mobile .howto .howto {
+    width: 100%;
+    margin-top: 25px;
+  }
+  body .mobile .howto .roads {
+    display: flex;
+    flex-direction: column;
+  }
+  body .mobile .howto .roads img {
+    margin-top: 25px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .mobile .howto .buynow {
+    width: 80%;
+    margin: 0 auto;
+  }
+  body .mobile .howto .buynow img {
+    width: 121px;
+    margin-top: 25px;
+  }
+  body .mobile .howto .shit {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -7px;
+    margin-top: -70px;
+  }
+  body .mobile .tokenomics .toke {
+    width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  body .mobile .tokenomics .title {
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 45px;
+    /* identical to box height, or 225% */
+    color: #000000;
+    margin-top: 25px;
+  }
+  body .mobile .tokenomics .text {
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+    color: #000000;
+  }
+  body .mobile .tokenomics .chart {
+    width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  body .mobile .tokenomics .derptext {
+    width: 104px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  body .mobile .roadmaps .roads {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+  }
+  body .mobile .roadmaps .txt {
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+    margin-top: 25px;
+    color: #000000;
+  }
+  body .mobile .roadmaps .roadmapss {
+    display: flex;
+    flex-direction: column;
+  }
+  body .mobile .roadmaps .roadmapss img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  body .mobile footer {
+    background-color: #00A230;
+  }
+  body .mobile footer .logos {
+    width: 312px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 55px;
+  }
+  body .mobile footer .txt {
+    width: 300px;
+    margin: 0 auto;
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 25px;
+  }
+  body .mobile footer .seperate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  body .mobile footer .seperate .left {
+    display: flex;
+    flex-direction: column;
+  }
+  body .mobile footer .seperate .left img {
+    width: 128px;
+    margin-top: 25px;
+  }
+  body .mobile footer .seperate .left a {
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    /* identical to box height, or 114% */
+    color: #FFFFFF;
+    margin-top: 15px;
+  }
+  body .mobile footer .seperate .right {
+    display: flex;
+    flex-direction: column;
+  }
+  body .mobile footer .seperate .right img {
+    width: 107px;
+    margin-top: 25px;
+  }
+  body .mobile footer .seperate .right a {
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+    /* identical to box height, or 114% */
+    color: #FFFFFF;
+    margin-top: 15px;
+  }
+  body .mobile footer .shiba {
+    width: 271px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+  }
+  body .mobile footer .likemobilewhite {
+    width: 100%;
+    height: 5px;
+  }
+  body .mobile footer .reserved {
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    margin: 0px;
+    padding: 15px 0px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FCFCFC;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  body .mobile {
+    display: none;
+  }
+  body .desktop .navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+  body .desktop .navbar .left a img {
+    width: 226.06px;
+    margin-top: 10px;
+  }
+  body .desktop .linesep img {
+    width: 100%;
+  }
+  body .desktop .linesep2 img {
+    width: 100%;
+  }
+  body .desktop .section1 .up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    background-image: url(../images/zxLgge4eTlLm.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  body .desktop .section1 .up .left {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin-right: -100px;
+  }
+  body .desktop .section1 .up .left img {
+    width: 100%;
+  }
+  body .desktop .section1 .up .left .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  body .desktop .section1 .up .left .socials a .twitter {
+    width: 177px;
+    margin-right: 25px;
+  }
+  body .desktop .section1 .up .left .socials a .telegram {
+    width: 190.5px;
+    margin-left: 25px;
+  }
+  body .desktop .section1 .up .left .socials .PEPPO {
+    width: 470px;
+    margin-bottom: 0px;
+  }
+  body .desktop .section1 .up img {
+    width: 50%;
+    height: 100%;
+  }
+  body .desktop .section1 .down {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+    background-image: url(../images/6W0g4pIzf18q.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 150px;
+    margin-top: 100px;
+  }
+  body .desktop .section1 .down .up1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  body .desktop .section1 .down .up1 .bsc {
+    width: 208.76px;
+  }
+  body .desktop .section1 .down .up1 .cmc {
+    width: 323px;
+  }
+  body .desktop .section1 .down .up1 .cg {
+    width: 239px;
+  }
+  body .desktop .section1 .down .down1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3%;
+  }
+  body .desktop .section1 .down .down1 .gate {
+    width: 174px;
+  }
+  body .desktop .section1 .down .down1 .pcs {
+    width: 293px;
+    margin-left: 100px;
+  }
+  body .desktop .section1 .down .down1 .dex {
+    width: 203px;
+    margin-right: 130px;
+  }
+  body .desktop #topmargin {
+    margin-top: -15px;
+  }
+  body .desktop .section2 {
+    background-image: url(../images/aezDvN5rz4x8.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    margin-top: -10px;
+  }
+  body .desktop .section2 .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+  body .desktop .section2 .container .left2 {
+    flex: 2;
+  }
+  body .desktop .section2 .container .left2 img {
+    margin-top: 200px;
+    width: 100%;
+  }
+  body .desktop .section2 .container .mid2 {
+    flex: 1.5;
+  }
+  body .desktop .section2 .container .mid2 img {
+    margin-top: 50px;
+    width: 100%;
+  }
+  body .desktop .section2 .container .mid2 p {
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    /* or 159% */
+    text-align: center;
+    color: #000000;
+  }
+  body .desktop .section2 .container .right2 {
+    flex: 2;
+  }
+  body .desktop .section2 .container .right2 img {
+    margin-top: 300px;
+    width: 110%;
+    margin-bottom: -10px;
+  }
+  body .desktop .section3 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  body .desktop .section3 .left3 {
+    flex: 1;
+  }
+  body .desktop .section3 .left3 img {
+    width: 80%;
+    margin-left: -15px;
+  }
+  body .desktop .section3 .right3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  body .desktop .section3 .right3 .rowbutton {
+    margin-left: 80px;
+    width: 80%;
+  }
+  body .desktop .section3 .right3 a {
+    margin-top: 25px;
+  }
+  body .desktop .section3 .right3 a img {
+    display: block;
+    width: 121px;
+    margin-left: 100px;
+  }
+  body .desktop .section3 .right3 a P {
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-left: 100px;
+    margin-top: 0px;
+  }
+  body .desktop .section4 {
+    background-image: url(../images/MHOTWAStpbt5.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  body .desktop .section4 .texts4 {
+    max-width: 754px;
+    margin-left: 700px;
+  }
+  body .desktop .section4 .texts4 .title4 {
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 45px;
+    color: #000000;
+    padding-top: 340px;
+    width: 70%;
+  }
+  body .desktop .section4 .texts4 .text4 {
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 45px;
+    color: #000000;
+    margin-bottom: 40px;
+    width: 90%;
+  }
+  body .desktop .section4 img {
+    width: 50%;
+    margin-left: 350px;
+  }
+  body .desktop .section5 .up5 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+  body .desktop .section5 .up5 .left5 img {
+    margin-top: 50px;
+    width: 95%;
+  }
+  body .desktop .section5 .up5 .right5 {
+    width: 80%;
+  }
+  body .desktop .section5 .up5 .right5 p {
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    /* or 159% */
+    margin-top: 100px;
+    color: #000000;
+  }
+  body .desktop .section5 .down5 {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+  body .desktop .section5 .down5 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+  }
+  body .desktop footer {
+    background-color: #00A230;
+  }
+  body .desktop footer .uppart {
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  body .desktop footer .uppart .leftfooter .upfooter {
+    display: flex;
+    flex-direction: column;
+  }
+  body .desktop footer .uppart .leftfooter .upfooter .up1f img {
+    width: 50%;
+  }
+  body .desktop footer .uppart .leftfooter .upfooter .up2f p {
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+    width: 90%;
+    margin-bottom: 50px;
+  }
+  body .desktop footer .uppart .leftfooter .downfooter {
+    display: flex;
+    flex-direction: row;
+  }
+  body .desktop footer .uppart .leftfooter .downfooter .leftf {
+    display: flex;
+    flex-direction: column;
+    margin-right: 140px;
+  }
+  body .desktop footer .uppart .leftfooter .downfooter .leftf .upf3 img {
+    width: 106px;
+    margin-bottom: 20px;
+  }
+  body .desktop footer .uppart .leftfooter .downfooter .leftf .downf33 {
+    display: flex;
+    flex-direction: column;
+  }
+  body .desktop footer .uppart .leftfooter .downfooter .leftf .downf33 a {
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 125% */
+    margin-bottom: 10px;
+    color: #FFFFFF;
+  }
+  body .desktop footer .uppart .leftfooter .downfooter .rightf {
+    display: flex;
+    flex-direction: column;
+  }
+  body .desktop footer .uppart .leftfooter .downfooter .rightf .upf4 img {
+    width: 157px;
+    margin-bottom: 20px;
+  }
+  body .desktop footer .uppart .leftfooter .downfooter .rightf .downf44 {
+    display: flex;
+    flex-direction: column;
+  }
+  body .desktop footer .uppart .leftfooter .downfooter .rightf .downf44 a {
+    font-family: "Comic Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 125% */
+    margin-bottom: 10px;
+    color: #FFFFFF;
+  }
+  body .desktop footer .uppart .rightfooter {
+    width: 100%;
+  }
+  body .desktop footer .uppart .rightfooter img {
+    width: 70%;
+    margin-bottom: -15px;
+  }
+  body .desktop footer .downfff .whiteline {
+    width: 100%;
+  }
+  body .desktop footer .downfff .downtextfooter {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #DADADA;
+    padding-bottom: 20px;
+    margin: 0px;
+    text-align: center;
+    padding-top: 15px;
+  }
+}/*# sourceMappingURL=style.css.map */
